@@ -1,0 +1,162 @@
+* {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+.cabecalho {
+	position: relative;
+    width: calc(100% - 40px);
+    height: 200px;
+    background-color: whitesmoke;
+    padding: 20px;
+}
+img#foto-perfil {
+    height: 180px;
+    width: 180px;
+    border-radius: 100%;
+    background-color: green;
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+	margin-left: 50px;
+}
+img.logo{
+	/* height: 50px; */
+    width: 7%;
+    border-radius: 100%;
+    background-color: green;
+	margin: 0px 0px 0px 3%;
+}
+img.logoMedio{
+	height: 80px;
+    width: 80px;
+}
+img.logoGrande{
+	position: absolute;
+	margin: 0;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+}
+.dados-pessoais {
+	padding-top: 40px;
+    float: left;
+    width: 40%;
+    height: 360px;
+    background-color: gainsboro;
+}
+.educacao {
+    float: left;
+    width: 60%;
+    height: 400px;
+    background-color: silver;
+}
+.conhecimentos {
+    float: left;
+    width: 40%;
+    height: 550px;
+    background-color: floralwhite;
+}
+.experiencia {
+    float: left;
+    width: 60%;
+    height: 650px;
+    background-color: gainsboro;
+}
+.conhecimentos p {
+	color: #D3D3D3;
+	font-size: 20px;
+	margin: 50px 0px 15px 10%;
+	font-weight: bold;
+}
+div.nome {
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+	margin-left: 20%;
+}
+.nome > h1 {
+	font-size: 70px;
+	margin: 0px  0px  0px 0px;
+}
+.profissao{
+	font-family: Century;
+	color: #D3D3D3;
+	font-size: 50px;
+	margin: -20px  0px  0px 0px;
+}
+.dados{
+	position: relative;
+	font-family: Centaur;
+	font-size: 16px;
+	margin: 30px  0px  0px 10%;
+}
+.dados a {
+	position: absolute;
+	margin: 9px 0px 0px 10px;
+}
+.titulo{
+	font-family: Centaur;
+	font-size: 26px;
+	color: #000080;
+	margin: 45px  0px  0px 10%;
+}
+.conhecimentos > .titulo {
+	color: #610B0B;
+}
+.conhecimentos > .Fatline, .conhecimentos > .linhaSeparatoria {
+	background-color: #610B0B;
+	border-color: #610B0B;
+}
+div.skills {
+	width: 100%;
+	float: left;
+}
+.experiencia > .titulo {
+	color: #74DF00;
+}
+.experiencia > .Fatline, .experiencia > .linhaSeparatoria {
+	background-color: #74DF00;
+	border-color: #74DF00;
+}
+.subtitulo{
+	margin: -70px  0px  0px 20%;
+	font-size: 18px;
+}
+.descricao{
+	margin: 0px  0px  0px 20%;
+	
+}
+.linhaSeparatoria{
+	border: 1px solid;
+	width: calc(100% - 200px);
+	height: 0.1px;
+	margin: -4px  0px  0px 10%;
+	border-radius: 50%;
+	background-color: #000080;
+	border-color: #000080;
+}
+.Fatline{
+	border: 1px solid;
+	width: 160px;
+	height: 3px;
+	margin: 10px  0px  0px 10%;
+	border-radius: 15%;
+	background-color: #000080;
+	border-color: #000080;
+}
+.circulo{
+	position: relative;
+	float: left;
+	margin-left: 15%;
+	width: 130px;
+	height: 130px;
+	border-radius: 50%;
+	background-color: #F6D8CE;
+}
+/* .posicao1{
+	margin: 20px 0px 0px 100px;
+}
+.posicao2{
+	margin: -150px 0px 0px 400px;
+} */
